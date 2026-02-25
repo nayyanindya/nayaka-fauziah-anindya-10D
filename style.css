@@ -1,0 +1,146 @@
+body {
+background-color: #EBF4DD;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: #6d795a;
+margin: 20px;
+}
+h1 {
+color: #60805b;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2 {
+color: #6f936a;
+text-align: left;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande','Lucida Sans Unicode', Geneva, Verdana,sans-serif;
+}
+p {
+font-size: 18px;
+text-align: left;
+line-height: 1.5;
+
+}
+.daftar-produk {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.produk{
+background-color: #ffffff;
+border: 1px solid #90AB8B;
+padding: 15px;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.produk img {
+width: 150px;
+height: auto;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+.produk h2 {
+    font-size: 20px;
+    color:#446041;
+}
+.produk h3 {
+    font-size: 16px;
+    color:#446041;
+}
+.harga {
+    font-weight: bold;
+    color:#899f64;
+}
+.deskripsi {
+    font-size: 14px;
+    color:#446041;
+}
+
+.artikel {
+    max-width:700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    font-family: 'Georgia','serif';
+    
+    line-height: 1.8;
+}
+.artikel .penulis {
+    font-style: italic;
+    color:#446041;
+    margin-top: 20px;
+}
+.artikel .sampul{ 
+    width: 180px;
+    float: right;
+    margin: 0 0 20px 20px;
+    border: 1px solid #6d795a
+}
+.artikel blockquote {
+    font-style: italic;
+    padding-left: 20px;
+    margin: 20px 0;
+    border-left: 4px solid #6d795a;
+    color:#60805b;
+    background-color: #ffffff;
+}
+.btn-kembali {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 16px;
+    background-color:#899f64;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.btn-kembali:hover {
+    background-color: #90AB8B;
+}
+
+.formulir {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #aeba99;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+
+    }
+
+form input, 
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    }
+
+form button {
+    background-color:#6d795a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+form button:hover {
+    background-color:#818d6e;
+    }
+
+    .header-img {
+         width: 100%;
+    height: 500px;
+    display: block;
+}
+    
